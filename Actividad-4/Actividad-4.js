@@ -27,10 +27,27 @@ for (let index = 1; index <= 50; index++) {
 
 //Ejercicio 4 numeros del 1 al 100 exluyendo 10 numeros
 var rangoMin = Number(prompt("Se excluiran 10 numeros a partir del numero que indique (1 -100)"));
-var rangoMax= rangoMin + 10;
+var rangoMax= rangoMin + 9;
 
-for (let index = 1; index <= 100; index++) {
+for (let index = 1; index < 100; index++) {
     if (index > rangoMax  || index < rangoMin) {
       console.log(index);
     }
 }
+
+
+//Ejercicio 5 multiplicar 2 numeros para ver cuales el numero ganador
+do {
+var NumeroMax = Number(Math.floor(Math.random() * 999));
+var NumeroMin = Number(Math.floor(Math.random() * 10) + 1);
+var Multiplicacion = NumeroMin * NumeroMax;
+
+var NumeroGanador = Number(prompt("Ingrese el numero ganador  de la multiplicacion " + NumeroMin +" * "+ NumeroMax));
+
+  if (Multiplicacion == NumeroGanador) 
+    {
+      console.log("Eres un ganador con el numero " +NumeroGanador );
+      break;
+    }
+} while (Multiplicacion != NumeroGanador);
+
