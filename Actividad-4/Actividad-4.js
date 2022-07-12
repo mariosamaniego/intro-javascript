@@ -44,8 +44,7 @@ var Multiplicacion = NumeroMin * NumeroMax;
 
 var NumeroGanador = Number(prompt("Ingrese el numero ganador  de la multiplicacion " + NumeroMin +" * "+ NumeroMax));
 
-  if (Multiplicacion == NumeroGanador) 
-    {
+  if (Multiplicacion == NumeroGanador){
       console.log("Eres un ganador con el numero " +NumeroGanador );
       break;
     }

@@ -2,8 +2,7 @@
 var edad= Number(prompt("Ingresa la Edad"));
 let nombre;
 
-if (edad >= 18 )
-{   
+if (edad >= 18 ){   
     console.log("Puede ingresar al la discoteca")
     nombre = prompt("Ingresa  en un nombre");
     switch (nombre) {
@@ -16,8 +15,7 @@ if (edad >= 18 )
           break;
     }
 }
-else
-{
+else{
     console.log("No puede ingresar a la discoteca")
 }
 
@@ -28,24 +26,19 @@ var Jugador2= prompt("jugador 2 Ingresa su opcion: ");
 
 console.log("jugador 1 eligio : " + Jugador1)
 console.log("jugador 2 eligio : " + Jugador2)
-if(Jugador1 != Jugador2)
-{   
-    if(Jugador1 == 'piedra')
-    {
+if(Jugador1 != Jugador2){   
+    if(Jugador1 == 'piedra'){
         Jugador2 == 'papel'  ? (console.log("jugador 2 gana (papel envuelve a piedra)")):(console.log("jugador 1 gana (piedra rompe tijeras)"))
     }
-    else if(Jugador1 == 'papel')
-    {
+    else if(Jugador1 == 'papel'){
         Jugador2 == 'piedra'  ? (console.log("jugador 1 gana (papel envuelve a piedra)")):(console.log("jugador 2 gana (tijera corta papel)"))
     }
-    else
-    {
+    else{
         Jugador2 == 'piedra'  ? (console.log("jugador 2 gana (piedra rompe a tijeras)")):(console.log("jugador 1 gana (tijera corta papel )"))
     }
 
 }
-else
-{
+else{
     console.log("Empate")
 }
 
@@ -88,8 +81,7 @@ if (x < y) {
 } else if (y < x) {
   console.log(y + " es menor que " + x);
 }
-else
-{
+else{
     console.log("Son iguales");
 }
 
@@ -102,22 +94,18 @@ var z = Number(prompt("Introduce otro numero mas"));
 var mayor = Math.max(x, y, z);
 console.log("El numero mayor es  " + mayor);
 
-if(mayor == x && mayor == y && mayor == z)
-{
+if(mayor == x && mayor == y && mayor == z){
     console.log("Los tres numeros son iguales");
 }
 else{
 
-    if(x == y )
-    {
+    if(x == y )    {
         console.log(x +" es el primer numero  y es igual al segundo  "+ y)
     }
-    else if(x == z)
-    {
+    else if(x == z){
         console.log(x +" es el primer numero  y es igual al tercero  "+ z)
     }
-    else if (y == z)
-    {
+    else if (y == z){
         console.log(y +" es el segundo numero  y es igual al tercero  "+ z)
     }
  
