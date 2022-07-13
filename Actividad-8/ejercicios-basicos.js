@@ -32,7 +32,7 @@ console.log(studentKeys);
 
 for (property in student) {
     console.log(`${property}: ${student[property]}`);
-    }
+}
 
 
 
@@ -111,7 +111,7 @@ Object.defineProperties(objeto, {
       enumerable: true,
       writable: true,
     },
-    color: {
+    peso: {
       enumerable: true,
       writable: true,
     },
