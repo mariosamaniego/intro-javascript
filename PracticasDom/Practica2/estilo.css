@@ -1,0 +1,25 @@
+.btn-primary {
+    background-color: #50B2A2 !important;
+}
+.btn-secondary {
+    background-color: #50B38A !important;
+}
+.btn-success {
+    background-color: #C85142 !important;
+}
+.btn-danger {
+    background-color: #0FA2CB !important;
+}
+.btn-warning {
+    background-color: #D8457A !important;
+}
+.btn-info {
+    background-color: #D8723C !important;
+}
+.btn-dark {
+    background-color: #D99129 !important;
+}
+
+.btn {
+    border: none;
+}
