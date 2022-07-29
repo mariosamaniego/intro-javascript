@@ -248,7 +248,7 @@ function retirar() {
           saldoActual +
           ", al ingresar $" +
           saldo +
-          " se superaría el máximo de $990. La operación no es permitida."
+          " se superaría el minimo de $10. La operación no es permitida."
       );
     } else {
       localStorage.setItem("saldo", montoNuevo);
